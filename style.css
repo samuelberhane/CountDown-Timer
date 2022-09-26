@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(bgImage.jpg) rgba(14, 43, 41, 0.4) center center/ cover;
+  background-blend-mode: color-burn;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.timer-container {
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  background-color: rgb(48, 16, 49);
+  box-shadow: 1px 1px 1px;
+  justify-content: center;
+}
+
+.time {
+  text-align: center;
+  margin: 10px 1rem;
+  padding: 0 10px;
+}
+
+.time p {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.time span {
+  font-size: 20px;
+}
